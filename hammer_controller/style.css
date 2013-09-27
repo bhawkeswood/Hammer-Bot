@@ -3,19 +3,52 @@ div {
 
 }
 
+body {
+	width: 1098px;
+}
+
 #title {
 	background-color: black;
 	color: white;
 }
 
 #buttons {
-	width: 515px;
+	width: 550px;
+	display: inline-block;
 }
 
 .forward, .stop, .left, .right, .reverse, .st_left, .st_right, .blank {
+	background-color: black;
+	color: white;
 	width: 150px;
 	height:150px;
 	margin: 2px;
 	display: inline-block;
+	-o-transition:color .2s ease-out, background 1s ease-in;
+	-ms-transition:color .2s ease-out, background 1s ease-in;
+	-moz-transition:color .2s ease-out, background 1s ease-in;
+	-webkit-transition:color .2s ease-out, background 1s ease-in;
+	transition:color .2s ease-out, background 1s ease-in;
+	}
+
+.forward:hover, 
+.stop:hover, 
+.left:hover,
+.right:hover,
+.reverse:hover,
+.st_left:hover,
+.st_right:hover,
+.blank:hover { 
+	color: white; 
+	background: grey; }
 }
 
+#explanation {
+	width: 200px;
+	display: inline-block;
+}
+
+.individuals {
+	padding: 0px;
+	margin: 0px;
+}
