@@ -9,21 +9,13 @@ div {
 }
 
 #buttons {
-	width: 600px;
+	width: 515px;
 }
 
-.forward {
-	width: 300px;
+.forward, .stop, .left, .right, .reverse, .st_left, .st_right, .blank {
+	width: 150px;
+	height:150px;
+	margin: 2px;
+	display: inline-block;
 }
 
-.stop {
-	width: 300px;
-}
-
-.left {
-	width: 300px;
-}
-
-.right {
-	width: 300px;
-}
