@@ -1,6 +1,7 @@
 div {
 	border : 1px black solid;
-
+	box-shadow: 5px 5px 5px #888888;
+	padding-top: 25px;
 }
 
 body {
@@ -13,8 +14,9 @@ body {
 }
 
 #buttons {
-	width: 550px;
+	width: 485px;
 	display: inline-block;
+	text-align: center;
 }
 
 .forward, .stop, .left, .right, .reverse, .st_left, .st_right, .blank {
@@ -43,12 +45,25 @@ body {
 	background: grey; }
 }
 
-#explanation {
-	width: 200px;
+.explanation {
+	width: 600px;
 	display: inline-block;
+	float: left;
+	margin-left: -200px;
 }
 
+.instructions{
+	float: right;
+	margin-top: 10px;
+	margin-right: 50px;
+}
 .individuals {
 	padding: 0px;
 	margin: 0px;
+}
+
+.notifications {
+	text-align: center;
+	background-color: tomato;
+
 }

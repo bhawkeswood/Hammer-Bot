@@ -73,19 +73,4 @@ $(function() {
     "Oh snap!  Hammer's doing the Moonwalk!",
     "Hammer needs a pepsi!  He's not functioning correctly!"
   )
-
-   var bindCoreography = function(data) {
-    $(".blank").on("click", function() {
-      $.ajax("http://" + ipAddress + ":8071/motion-control/update", {
-        data: data,
-        dataType: "jsonp",
-        success: function() { hammerTime },
-        error:   function() { "Sorry Bro.  Hammer ain't in the mood." }
-      });
-    });
-  }
-
-  var hammerTime = function(movement) {
-
-  }
 })
